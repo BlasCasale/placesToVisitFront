@@ -1,0 +1,17 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px 15px;
+    gap: 40px;
+    transition: 1s;
+}
+
+.clearMain {
+    background-color: #ccc;
+}
+
+.darkMain {
+    background-color: #7F7F7F;
+}

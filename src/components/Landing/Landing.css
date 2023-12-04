@@ -1,0 +1,69 @@
+.sectionLanding {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 65px 10px;
+    transition: 1s;
+}
+
+.containerLanding {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 10px;
+    gap: 35px;
+    transition: 1s;
+}
+
+.divLanding {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    flex-direction: column;
+}
+
+.clearTitleLanding {
+    color: #0A0908;
+}
+
+.darkTitleLanding {
+    color: #ccc;
+}
+
+.darkLanding {
+    background-color: #7F7F7F;
+}
+
+.clearLanding {
+    background-color: #cccccc;
+}
+
+.darkContainerLanding {
+    background-color: #0A0908;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+}
+
+.clearContainerLanding {
+    background-color: #ffffff;
+    border: 2px solid #0A0908;
+    border-radius: 25px;
+}
+
+.clearLink {
+    color: #0A0908;
+}
+
+.darkLink {
+    color: #ccc;
+}
+
+.clearLink:hover {
+    text-decoration: underline;
+}
+
+.darkLink:hover {
+    text-decoration: underline;
+}

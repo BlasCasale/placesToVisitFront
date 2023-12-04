@@ -1,0 +1,14 @@
+.btnMode {
+    border: none;
+    border-radius: 35px;
+    transition: 1s;
+    padding: 3px;
+}
+
+.clearBtnMode {
+    background-color: #0A0908;
+}
+
+.darkBtnMode {
+    background-color: #ffffff;
+}

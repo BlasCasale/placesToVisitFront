@@ -1,0 +1,28 @@
+.clearSection {
+    background-color: #ccc;
+}
+
+.darkSection {
+    background-color: #7F7F7F;
+}
+
+.sectionDetail {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 10px;
+    transition: 1s;
+}
+
+@media screen and (min-width: 300px) {
+    .sectionDetail {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media screen and (min-width: 650px) {
+    .sectionDetail {
+        flex-direction: row;
+    }
+}

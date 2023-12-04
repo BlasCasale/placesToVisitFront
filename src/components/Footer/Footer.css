@@ -1,0 +1,47 @@
+.sectionFooter {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 50px 15px;
+    transition: 1s;
+}
+
+.clearSectionFooter {
+    background-color: #ffffff;
+}
+
+.darkSectionFooter {
+    background-color: #0A0908;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border: solid 2px;
+    border-radius: 25px;
+    padding: 15px;
+    transition: 1s;
+}
+
+footer p {
+    font-size: 1.6rem;
+    transition: 1s;
+}
+
+.clearFooter {
+    border-color: #0A0908;
+}
+
+.darkFooter {
+    border-color: #ffffff;
+}
+
+.clearPFooter {
+    color: #0A0908;
+}
+
+.darkPFooter {
+    color: #ffffff;
+}

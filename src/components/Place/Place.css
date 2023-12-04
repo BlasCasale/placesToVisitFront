@@ -1,0 +1,54 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+    width: 200px;
+    border: solid 2px;
+    border-radius: 25px;
+}
+
+.clearCard {
+    border-color: #0A0908;
+    background-color: #ffffff;
+}
+
+.darkCard {
+    border-color: #ffffff;
+    background-color: #0A0908;
+}
+
+.clearDescription {
+    color: #0A0908;
+}
+
+.darkDescription {
+    color: #ffffff;
+}
+
+.descriptionPrice {
+    color: green;
+}
+
+.description {
+    font-size: 1.5rem;
+    transition: 1s;
+}
+
+.clearLink {
+    color: #0A0908;
+}
+
+.darkLink {
+    color: #ccc;
+}
+
+.icon {
+    transition: 1s;
+}
+
+.icon:hover {
+    scale: 1.03;
+}

@@ -1,0 +1,5 @@
+blanco = #ffffff
+negro = #0A0908
+silver = #CCCCCC
+gris = #7F7F7F
+amarillo = #F0F600

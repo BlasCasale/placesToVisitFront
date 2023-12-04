@@ -1,0 +1,139 @@
+.sectionForm {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.clearSectionForm {
+    background-color: #cccccc;
+}
+
+.darkSectionForm {
+    background-color: #7F7F7F;
+}
+
+.formInput {
+    border: none;
+    font-size: 1.6rem;
+    padding: 6px;
+    border-radius: 15px;
+}
+
+.formSpan {
+    color: red;
+    font-size: 1.7rem;
+    width: 250px;
+}
+
+.formInputInvalid {
+    border: 3px solid red;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    justify-content: center;
+    align-items: start;
+    border: 3px solid;
+    border-radius: 25px;
+    padding: 20px;
+    transition: 1s;
+}
+
+.clearForm {
+    border-color: #0A0908;
+    background-color: #ccc;
+}
+
+.darkForm {
+    border-color: #cccccc;
+    background-color: #0A0908;
+}
+
+.clearLabel {
+    color: #0A0908;
+}
+
+.darkLabel {
+    color: #ffffff;
+}
+
+.clearLegend {
+    color: #0A0908;
+}
+
+.darkLegend {
+    color: #ffffff;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.span {
+    font-size: 1.5rem;
+    transition: 1s;
+}
+
+.clearSpan {
+    color: #0A0908;
+}
+
+.darkSpan {
+    color: #ffffff;
+}
+
+.btnChange {
+    transition: 1s;
+    border: none;
+    background-color: transparent;
+    width: 35px;
+    height: 35px;
+}
+
+.changerContainer {
+    display: flex;
+    gap: 5px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.clearBtnChange {
+    color: #0A0908;
+}
+
+.darkBtnChange {
+    color: #ffffff;
+}
+
+.btnSubmit {
+    border: solid 2px;
+    border-radius: 15px;
+    padding: 4px;
+    font-size: 1.5rem;
+    transition: 1s;
+}
+
+.btnSubmit:hover {
+    scale: 1.1;
+}
+
+.clearBtnSubmit {
+    color: #0A0908;
+    border-color: #0A0908;
+    background-color: #ffffff;
+}
+
+.darkBtnSubmit {
+    color: #ffffff;
+    border-color: #ffffff;
+    background-color: #0A0908;
+}
+
+.spanField {
+    font-size: 1.5rem;
+}
